@@ -1,11 +1,12 @@
 {
-  "name": "bookhouse",
+  "name": "amazingamazone",
   "version": "1.0.0",
   "description": "book house is a book store ",
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5001/",
   "main": "app.js",
   "scripts": {
     "start": "node app",
+    "start-server": "nodemon app.js --ignore './client'",
     "dev": "nodemon app"
   },
   "author": "mernapp",
